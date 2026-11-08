@@ -16,7 +16,7 @@
 <meta name="theme-color" content="#0d241d">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Pinyon+Script&family=Noto+Nastaliq+Urdu:wght@600&display=swap" rel="stylesheet">
 <style>
 :root{
   --emerald:#0d241d; --emerald-2:#143a2f; --ivory:#fbf8f1; --ink:#2a2520; --muted:#4f463c;
@@ -155,6 +155,7 @@ body.opened .cover{visibility:hidden;pointer-events:none}
 @keyframes dayGlow{50%{filter:drop-shadow(0 0 10px rgba(201,163,92,.55))}}
 .year{font-size:24px;font-weight:700;letter-spacing:.34em;color:var(--ink)}
 .time{font-size:30px;margin-top:14px;font-weight:700;color:var(--ink)}
+.urdu{font-family:"Noto Nastaliq Urdu",serif;font-weight:600;font-size:26px;line-height:1.9;color:#7a5520;margin-top:2px}
 .venue{margin-top:24px}
 .venue .caps{font-size:21px;font-weight:700}
 .venue p{font-size:19px;font-weight:600;line-height:1.45;color:var(--muted)}
@@ -316,6 +317,7 @@ body.opened .snd{opacity:1;transform:none;pointer-events:auto}
       <div class="date-row"><span class="side">Sat</span><span class="day foil">28</span><span class="side">Nov</span></div>
       <p class="year rv">2026</p>
       <p class="time rv">at 1:00 PM</p>
+      <p class="urdu rv" lang="ur" dir="rtl">دوپہر</p>
       <svg class="rule rv"></svg>
       <div class="venue rv">
         <svg class="pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
