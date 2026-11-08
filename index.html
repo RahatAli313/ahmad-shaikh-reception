@@ -26,7 +26,8 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{background:var(--emerald);overflow:hidden;height:100%}
-html.open{overflow:visible;height:auto}
+html,body{overflow-x:clip;max-width:100%}
+html.open{overflow-y:visible;overflow-x:clip;height:auto}
 body{background:var(--emerald);font-family:"Cormorant Garamond",Georgia,serif;color:var(--ink);font-weight:500;-webkit-font-smoothing:antialiased;overscroll-behavior-y:none}
 .app{max-width:460px;margin:0 auto;position:relative;background:var(--emerald);min-height:100%;box-shadow:0 0 80px rgba(0,0,0,.5);transform:scale(1.14);filter:blur(6px) brightness(.6);transition:transform 2.6s var(--ease),filter 2.2s ease}
 body.opening .app{transform:none;filter:none}
